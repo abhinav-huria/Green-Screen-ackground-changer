@@ -1,5 +1,5 @@
 # Green-Screen-ackground-changer
-This webpage helps change the green screen background of any image to your desired background.
+This webpage helps to change the green screen background of any image to your desired background.
 
 *The size of the images must be the same.
 
