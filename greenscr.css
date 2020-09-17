@@ -1,0 +1,133 @@
+ body {
+            background-color: wheat;
+            font-family: Verdana;
+            margin: 40px;
+        }
+        
+        canvas {
+            border: 1px solid #c3c3c3;
+            height: 200px;
+        }
+        
+        input {
+            font-size: 12pt;
+        }
+        
+        body {
+            font-size: 30px;
+            color: white;
+            margin: 0;
+            background-image: url("bg1.png");
+            width: 100%;
+            height: auto;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        #canvas,
+        #fgcan,
+        #bgcan {
+            border: 1px solid;
+            width: 300px;
+            background-color: white;
+        }
+        
+        input {
+            display: block;
+            margin-top: 10px;
+            border-radius: 12px;
+            border: 1px solid white;
+        }
+        
+        input:not([type="file"]) {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 8px 20px;
+            cursor: pointer;
+            color: white;
+        }
+        
+        #file {
+            border-radius: 12px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            margin-top: 0px;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            height: 20px;
+            width: 50%;
+            cursor: pointer;
+        }
+        
+        input:not([type="file"]):hover {
+            background: #ffffff;
+            color: black;
+        }
+        
+        .filters input {
+            display: inline-block;
+        }
+        
+        .nomarginbottom {
+            margin-bottom: 0;
+        }
+        
+        #animation {
+            position: relative;
+            width: 100%;
+        }
+        
+        .container,
+        .text {
+            position: absolute;
+        }
+        
+        .text {
+            margin-top: -500px;
+        }
+        
+        #abc {
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        td {
+            text-align: center;
+            width: 620px;
+        }
+        
+        #xyz {
+            display: inline-block;
+            background-color: black;
+            position: fixed;
+            width: 100%;
+            height: 43px;
+            font-size: 30px;
+            top: 0;
+            left: 0;
+            color: white;
+        }
+        
+        a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 10px 50px;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: 'Nanum Gothic', sans-serif;
+            text-shadow: none;
+        }
+        
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        #rty {
+            margin-top: 70px;
+        }
