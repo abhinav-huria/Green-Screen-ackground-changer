@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+<link rel="stylesheet" type="text/css" href="greenscr.css">
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+    </script>
+   <script src="greenscr.js"></script>
+    
+    <div id="rty">
+        <table>
+            <tr>
+                <td>
+                    <canvas id="fgcan">
+</canvas></td>
+                <td> <canvas id="bgcan">
+</canvas></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <center>Foreground: <input type="file" multiple="false" accept="image/*" id="fgfile" onchange="loadForegroundImage()"></center>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <center> Background: <input type="file" multiple="false" accept="image/*" id="bgfile" onchange="loadBackgroundImage()"></center>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <center> <input type="button" value="Create Composite" onclick="doGreenScreen()"></p>
+                    </center>
+                </td>
+                <td>
+                    <p>
+                        <center> <input type="button" value="Clear Canvases" onclick="clearCanvas()"></center>
+                    </p>
+                </td>
+            </tr>
+        </table>
+<p><center><input type="button" value="Download" onclick="download()"></center></p>
+    </div>
+    <br>
+    <br>
+</body>
+
+</html>
